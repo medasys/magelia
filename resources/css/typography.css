@@ -1,0 +1,25 @@
+.horizontal { /* Horizontal & vertical lists */
+	margin: 1.077em 0 1.077em 1.538em; /*  14px 0 14px 20px */
+}
+
+.horizontal li {
+	line-height: 1.385em
+}
+
+.horizontal.vertical { /* Vertical lists */
+	margin: 0
+}
+
+.horizontal.horizontal { /* Horizontal lists */
+	display: inline;
+	margin: 0
+}
+
+UL.horizontal > LI {
+	display: inline-block;
+
+	/* IE */
+	*margin: 1px;
+	zoom: 1;
+	*display: inline;
+}

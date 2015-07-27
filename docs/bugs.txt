@@ -1,0 +1,2 @@
+Bugs :
+- Détruire la session en cas de problème avant de rediriger vers authentification.php
